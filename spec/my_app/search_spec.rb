@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe 'Seach field' do
-  it 'seaches an article' do
+describe 'Search field' do
+  it 'searches an article' do
     visit(IndexPage) do |page|
       page.search = 'Ruby'
       page.submit_search
